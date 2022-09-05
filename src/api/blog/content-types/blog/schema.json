@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,15 @@
       "type": "richtext"
     },
     "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Category": {
       "type": "enumeration",
@@ -43,6 +45,14 @@
         "FeaturedPost",
         "TrendingNews"
       ]
+    },
+    "BlogAuthor": {
+      "type": "enumeration",
+      "enum": [
+        "Karen Rangi",
+        "Tonny Gidraph"
+      ],
+      "required": false
     }
   }
 }
