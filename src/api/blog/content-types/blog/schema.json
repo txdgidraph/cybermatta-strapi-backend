@@ -56,6 +56,12 @@
     },
     "Slug": {
       "type": "string"
+    },
+    "blog_author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::blog-author.blog-author",
+      "inversedBy": "blogs"
     }
   }
 }
