@@ -53,6 +53,9 @@
         "Tonny Gidraph"
       ],
       "required": false
+    },
+    "Slug": {
+      "type": "string"
     }
   }
 }
