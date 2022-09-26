@@ -21,17 +21,6 @@
     "linkedin": {
       "type": "string"
     },
-    "profile_pic": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "description": {
       "type": "text"
     },
@@ -40,6 +29,9 @@
       "relation": "oneToMany",
       "target": "api::blog.blog",
       "mappedBy": "blog_author"
+    },
+    "Avatar_Link": {
+      "type": "string"
     }
   }
 }
