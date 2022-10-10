@@ -46,14 +46,6 @@
         "TrendingNews"
       ]
     },
-    "BlogAuthor": {
-      "type": "enumeration",
-      "enum": [
-        "Karen Rangi",
-        "Tonny Gidraph"
-      ],
-      "required": false
-    },
     "Slug": {
       "type": "string"
     },
