@@ -54,6 +54,9 @@
       "relation": "manyToOne",
       "target": "api::blog-author.blog-author",
       "inversedBy": "blogs"
+    },
+    "meta_description": {
+      "type": "text"
     }
   }
 }
